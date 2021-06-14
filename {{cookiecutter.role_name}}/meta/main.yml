@@ -1,7 +1,9 @@
 ---
 galaxy_info:
   author: {{ cookiecutter.author }}
+{% if cookiecutter.description %}
   description: {{ cookiecutter.description }}
+{% endif %}
 {% if cookiecutter.company %}
   company: {{ cookiecutter.company }}
 {% endif %}
